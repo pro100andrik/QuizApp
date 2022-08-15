@@ -1,0 +1,20 @@
+.editor-navigation{
+  position: absolute;
+
+  bottom: 0px;
+
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+
+}
+
+.question-title input {
+  width: 70%;
+  font-size: 90%;
+}
+
+.question-title {
+  font-size: 100%;
+  margin: 10px 0;
+}

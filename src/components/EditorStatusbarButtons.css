@@ -1,0 +1,23 @@
+.active {
+  position: relative;
+  background: rebeccapurple;
+}
+
+.active::after {
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  content: '';
+  width: 100%;
+  background: red;
+  height: 5px;
+  z-index: 999;
+}
+
+.valid {
+  background-color: green;
+}
+
+.not-valid {
+  background-color: orange;
+}

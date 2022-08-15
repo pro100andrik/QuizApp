@@ -1,0 +1,22 @@
+.active {
+  position: relative;
+}
+
+.active::after {
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  content: '';
+  width: 100%;
+  background: red;
+  height: 5px;
+  z-index: 999;
+}
+
+.answered {
+  background-color: green;
+}
+
+.not-answered {
+  background-color: orange;
+}

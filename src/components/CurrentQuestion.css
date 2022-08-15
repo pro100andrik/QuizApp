@@ -1,0 +1,23 @@
+.question-tittle {
+  font-size: 35px;
+  margin: 10px;
+}
+
+.answer {
+  color: black;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 10px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.chosen-answer {
+  background: green;
+}
+
+.answer label{
+  display: inline-block;
+  width: 90%;
+  cursor: pointer;
+}

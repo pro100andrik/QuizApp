@@ -1,0 +1,30 @@
+.finish-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(102, 51, 153, .8);
+
+}
+
+.finish-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(102, 51, 153);
+  width: 400px;
+  height: 300px;
+  border-radius: 100px;
+  box-shadow: 0 0 150px 150px rgb(102, 51, 153);
+  text-align: center;
+}
+
+.finish-message-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
