@@ -1,6 +1,6 @@
 .active {
   position: relative;
-  background: rebeccapurple;
+  /* background: rebeccapurple; */
 }
 
 .active::after {
@@ -16,8 +16,10 @@
 
 .valid {
   background-color: green;
+  border-radius: 5px;
 }
 
 .not-valid {
   background-color: orange;
+  border-radius: 5px;
 }

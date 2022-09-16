@@ -1,22 +1,39 @@
 .active {
   position: relative;
+  background: rgba(0,0,0,0);
 }
 
 .active::after {
   position: absolute;
   left: 0px;
-  bottom: -5px;
+  bottom: 0px;
   content: '';
   width: 100%;
-  background: red;
-  height: 5px;
-  z-index: 999;
+  background: rgb(110,123,251);
+  box-shadow: 0 0 5px 3px rgb(110,123,251) ;
+  height: 100%;
+  z-index: -1;
+  border-radius: 5px;
+
 }
 
 .answered {
   background-color: green;
+  border-radius: 5px;
 }
 
 .not-answered {
+  border-radius: 5px;
   background-color: orange;
+}
+
+.buttons {
+  overflow-x: auto;
+  height: 50px;
+  white-space: nowrap;
+  margin: 0 10px;
+}
+
+.statusbar-button {
+  display: inline-block;
 }

@@ -15,11 +15,7 @@ const StatusbarButtons = (props) => {
                           className={
                             props.indexOfActiveQuestionNow === index
                               ?
-                            props.questionIsAnswered[index] === true
-                              ?
-                            'statusbar-button answered active'
-                              :
-                            'statusbar-button not-answered active'
+                            'statusbar-button active '
                               :
                             props.questionIsAnswered[index] === true
                               ?
