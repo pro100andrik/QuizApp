@@ -11,7 +11,7 @@ const CurrentQuestion = (props) => {
   return (
     <>
       <div className='question-tittle'>{props.question.title}{props.question.type === "singleAnswer" ? null : '(Multiple Answer)'}</div>
-      {props.question.type === "singleAnswer"
+      <div className='answers-wrapper'>{props.question.type === "singleAnswer"
         ?
       props.question.answers.map((element, index) => {
         return (
@@ -30,7 +30,7 @@ const CurrentQuestion = (props) => {
               {element.label}
            </div>
           )})
-      }
+      }</div>
     </>
   )
 }
